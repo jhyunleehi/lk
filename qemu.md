@@ -102,3 +102,136 @@ $ ddd --debugger arm-linux-gnueabihf-gdb ./vmlinux
 
 *tip
 ddd 명령이 정상적으로 동작하지 않을 경우는 ~/.ddd 디렉토리 안에 내용을 삭제하면 정상적으로 ddd를 수행할 수 있다.
+
+
+
+4.5.2.	오류 처리
+4.5.2.1.	git proxy 설정 문제
+git proxy 설정후 down load 진행
+ljh@ljh-VirtualBox:~/git/linux$ git config --global  http.proxy http://70.10.15.10:8080
+ljh@ljh-VirtualBox:~/git/linux$ git config --global  https.proxy https://70.10.15.10:8080
+ljh@ljh-VirtualBox:~/git/linux$ git clone https://github.com/raspberrypi/linux
+Cloning into 'linux'...
+remote: Enumerating objects: 1900, done.
+remote: Counting objects: 100% (1900/1900), done.
+remote: Compressing objects: 100% (750/750), done.
+Receiving objects:   0% (20145/7243382), 8.91 MiB | 3.29 MiB/s
+
+
+4.5.2.2.	qemu.git 다시 받기
+jhyunlee@jhyunlee-VirtualBox:~/git/pi2$ git clone https://github.com/qemu/qemu.git
+Cloning into 'qemu'...
+remote: Counting objects: 390319, done.
+remote: Total 390319 (delta 0), reused 0 (delta 0), pack-reused 390319
+Receiving objects: 100% (390319/390319), 185.10 MiB | 399.00 KiB/s, done.
+Resolving deltas: 100% (313907/313907), done.
+Checking connectivity... done.
+
+4.5.2.3.	DTC.git update 오류
+jhyunlee@jhyunlee-VirtualBox:~/git/pi2/qemu$ git submodule update --init dtc
+Submodule 'dtc' (git://git.qemu-project.org/dtc.git) registered for path 'dtc'
+Cloning into 'dtc'...
+^C
+jhyunlee@jhyunlee-VirtualBox:~/git/pi2/qemu$ git clone http://git.qemu.org/git/dtc.git
+Cloning into 'dtc'...
+Checking connectivity... done.
+
+4.5.2.4.	Cloining capstone error
+jhyunlee@jhyunlee-VirtualBox:~/git/pi2/qemu$ make -j$(nproc)
+  GIT     ui/keycodemapdb dtc capstone
+Cloning into 'capstone'...
+fatal: unable to connect to git.qemu.org:
+git.qemu.org[0: 172.99.69.163]: errno=Connection timed out
+
+fatal: clone of 'git://git.qemu.org/capstone.git' into submodule path 'capstone' failed
+./scripts/git-submodule.sh: failed to update modules
+
+Unable to automatically checkout GIT submodules ' ui/keycodemapdb dtc capstone'.
+If you require use of an alternative GIT binary (for example to
+enable use of a transparent proxy), then please specify it by
+running configure by with the '--with-git' argument. e.g.
+
+ $ ./configure --with-git='tsocks git'
+
+Alternatively you may disable automatic GIT submodule checkout
+with:
+
+ $ ./configure --disable-git-update
+
+and then manually update submodules prior to running make, with:
+
+ $ scripts/git-submodule.sh update  ui/keycodemapdb dtc capstone
+
+Makefile:45: recipe for target 'git-submodule-update' failed
+make: *** [git-submodule-update] Error 1
+
+
+jhyunlee@jhyunlee-VirtualBox:~/git/pi2/qemu$  ./configure --with-git='tsocks git'
+
+git submodule foreach --recursive 'git submodule sync'
+git submodule update --recursive
+
+여기에 git url이 정의 되어 있어서 이것을 조정해 봐야 겠다.
+./.git/config:  url = git://git.qemu.org/capstone.git
+./.git/config:  url = git://git.qemu.org/keycodemapdb.git
+./.git/config:  url = git://git.qemu.org/QemuMacDrivers.git
+./.git/config:  url = git://git.qemu.org/qemu-palcode.git
+./.git/config:  url = git://git.qemu.org/skiboot.git
+./.git/config:  url = git://git.qemu.org/u-boot-sam460ex.git
+
+.git/config 파일에서 capstone.git url을 수정한다.
+url = https://github.com/qemu/capstone.git
+
+jhyunlee@jhyunlee-VirtualBox:~/git/pi2/qemu$ make -j$(nproc)
+  GIT     ui/keycodemapdb dtc capstone
+Cloning into 'capstone'...
+remote: Counting objects: 23849, done.
+remote: Compressing objects: 100% (226/226), done.
+remote: Total 23849 (delta 123), reused 146 (delta 71), pack-reused 23545
+Receiving objects: 100% (23849/23849), 33.96 MiB | 400.00 KiB/s, done.
+Resolving deltas: 100% (17245/17245), done.
+Checking connectivity... done.
+Cloning into 'ui/keycodemapdb'..
+
+
+
+
+4.5.2.5.	make capstone failed
+make[1]: *** No rule to make target '/home/jhyunlee/git/pi2/qemu/capstone/libcapstone.a'.  Stop.
+Makefile:506: recipe for target 'subdir-capstone' failed
+make: *** [subdir-capstone] Error
+
+4.6.	Kernel 컴파일
+https://harryp.tistory.com/839
+
+4.6.1.	사전준비
+최신 커널은 여기서 다운로드
+http://kernel.org
+
+필요 패키지 설치
+$ sudo apt-get update
+$ sudo apt-get install build-essential libncurses5 libncurses5-dev bin86 kernel-package libssl-dev bison flex libelf-dev
+
+$ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.0.21.tar.xz
+$ wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.50.tar.xz
+$ sudo mv 커널소스파일명 /usr/src/
+$ cd /usr/src
+$ sudo xz -d 커널소스파일명.tar.xz
+$ sudo tar xf 커널소스파일명.tar
+$ cd 커널소스디렉토리
+
+현재 커널 config 파일 복사
+# sudo cp /boot/config-현재커널명 ./.config
+
+프로세서 개수 확인
+$ grep -c processor /proc/cpuinfo 
+
+$ sudo make-kpkg --J # --initrd --revision=1.0 kernel_image
+-J # 코어 개수
+--revision=1.0 숫자만 입력 가능
+
+
+생성된 커널 이미지  설치
+$ sudo dpkg -i 커널이미지파일명
+
+
