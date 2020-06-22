@@ -139,7 +139,7 @@ qemu-system-arm -s -S -M raspi2 \
 
 ```
 $ source env.sh
-$ cd ~/kernel/linux/
+$ cd ~/code/linux/
 $ ddd --debugger arm-linux-gnueabihf-gdb ./vmlinux
 
 # GDB shell에서 target remote localhost:1234 명령을 친다.
