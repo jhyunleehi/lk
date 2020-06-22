@@ -21,7 +21,7 @@ deb http://security.ubuntu.com/ubuntu bionic-security universe
 deb http://security.ubuntu.com/ubuntu bionic-security multiverse
 ```
 
-#### Cross-Compiling
+#### Kernel cross-compiling
 
 ```
 $ uname -a
@@ -59,18 +59,19 @@ $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- bcm2711_defconfig
 # all platform
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs
 
-#make menuconfig 
-Kernel hacking --> Compile-time checks and compiler option --> 
-            Compile the kernel with debug info --> Enable
-            Generate dwarf4 debuginfo --> Enable
-            Provide GDB scripts for kernel debuffing--> Enable
-
 $ cat ~/code/linux/build.sh
 #!/bin/sh
 OUTPUT="~/code/out"
 KERNEL=kernel7
 make ARCH=arm O=$OUTPUT CROSS_COMPILE=arm-linux-gnueabihf- bcm2709_defconfig
 make ARCH=arm O=$OUTPUT CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs  -j3
+
+$ make menuconfig 
+Kernel hacking --> Compile-time checks and compiler option --> 
+            Compile the kernel with debug info --> Enable
+            Generate dwarf4 debuginfo --> Enable
+            Provide GDB scripts for kernel debuffing--> Enable
+
 
 $ build.sh
 
