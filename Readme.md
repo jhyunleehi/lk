@@ -28,6 +28,7 @@ $ uname -a
 Linux good-VirtualBox 5.3.0-59-generic #53~18.04.1-Ubuntu SMP Thu Jun 4 14:58:26 UTC 2020 x86_64 
 
 $ sudo apt install git bc bison flex libssl-dev make
+$ mkdir ~/code && cd ~/code
 $ git clone --depth=1 --branch rpi-4.19.y https://github.com/raspberrypi/linux
 
 # wget https://downloads.raspberrypi.org/raspios_lite_armhf_latest.zip
@@ -46,10 +47,8 @@ export KERNEL=kernel7
 export ARCH=arm
 export CROSS_COMPILE=arm-linux-gnueabihf-
 
-$ mkdir ~/code && cd ~/code
-$ git clone --depth=1 --branch rpi-4.19.y https://github.com/raspberrypi/linux
 
-$ cd linux
+$ cd ~/code/linux
 $ KERNEL=kernel
 # For Pi 1, Pi Zero, Pi Zero W, or Compute Module:
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- bcmrpi_defconfig 
@@ -60,20 +59,22 @@ $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- bcm2711_defconfig
 # all platform
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs
 
-#!/bin/sh
-OUTPUT="~/code/out"
-KERNEL=kernel7
-make ARCH=arm O=$OUTPUT CROSS_COMPILE=arm-linux-gnueabihf- bcm2709_defconfig
-make ARCH=arm O=$OUTPUT CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs  -j3
-
 #make menuconfig 
 Kernel hacking --> Compile-time checks and compiler option --> 
             Compile the kernel with debug info --> Enable
             Generate dwarf4 debuginfo --> Enable
             Provide GDB scripts for kernel debuffing--> Enable
 
+$ cat ~/code/linux/build.sh
+#!/bin/sh
+OUTPUT="~/code/out"
+KERNEL=kernel7
+make ARCH=arm O=$OUTPUT CROSS_COMPILE=arm-linux-gnueabihf- bcm2709_defconfig
+make ARCH=arm O=$OUTPUT CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs  -j3
 
-$ vi ~/git/pi2/run_qemu.sh
+$ build.sh
+
+$ vi ~/rpi3/run_qemu.sh
 #!/bin/sh
 BOOT_CMDLINE="rw earlyprintk loglevel=8 console=ttyAMA0,115200 console=tty1 dwc_otg.lpm_enable=0 root=/dev/mmcblk0p2"
 DTB_FILE="bcm2709-rpi-2-b.dtb"
