@@ -74,6 +74,9 @@ make ARCH=arm O=$OUTPUT CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs  
 
 $ build.sh
 
+$ ~/code/linux/scripts/mkknlimg arch/arm/boot/zImage ~/rpi3/kernel7.img
+$ cp arch/arm/boot/dts/bcm2709-rpi-2-b.dtb ~/rpi3
+
 $ vi ~/rpi3/run_qemu.sh
 #!/bin/sh
 BOOT_CMDLINE="rw earlyprintk loglevel=8 console=ttyAMA0,115200 console=tty1 dwc_otg.lpm_enable=0 root=/dev/mmcblk0p2"
