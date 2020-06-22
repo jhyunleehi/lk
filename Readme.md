@@ -6,7 +6,7 @@
 $ uname -a
 Linux good-VirtualBox 5.3.0-59-generic #53~18.04.1-Ubuntu SMP Thu Jun 4 14:58:26 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
 ```
-#### /etc/apt/sources.list
+## /etc/apt/sources.list
 ```
 $ cat /etc/apt/sources.list | grep  -v "#"
 deb http://kr.archive.ubuntu.com/ubuntu/ bionic main restricted
@@ -21,7 +21,7 @@ deb http://security.ubuntu.com/ubuntu bionic-security universe
 deb http://security.ubuntu.com/ubuntu bionic-security multiverse
 ```
 
-#### Kernel cross-compiling
+## Kernel cross-compiling
 
 ```
 $ uname -a
@@ -74,7 +74,7 @@ Kernel hacking --> Compile-time checks and compiler option -->
 
 
 $ build.sh
-
+# 커널과  device tree  파일 추출
 $ ~/code/linux/scripts/mkknlimg arch/arm/boot/zImage ~/rpi3/kernel7.img
 $ cp arch/arm/boot/dts/bcm2709-rpi-2-b.dtb ~/rpi3
 
@@ -106,7 +106,7 @@ $ ddd --debugger arm-linux-gnueabihf-gdb ./vmlinux
 (gdb) c
 
 ```
-#### 컴파일 결과 
+### 컴파일 결과 
 ```
 
 $ ls -l ~/code/out/arch/arm/boot/dts/bcm2709-rpi-2-b.dtb
@@ -118,7 +118,9 @@ $ ls -l ~/code/out/arch/arm/boot/zImage
 $ ls -l ~/code/out/arch/arm/boot/zImage 
 -rwxr-xr-x 1 good good 5470168  6월 20 01:01 ~/code/out/arch/arm/boot/zImage
 ```
-#### qemu
+
+
+### qemu
 ```
 $ vi ~/git/pi2/run_qemu.sh
 #!/bin/sh
@@ -136,7 +138,7 @@ qemu-system-arm -s -S -M raspi2 \
     -dtb ${DTB_FILE} -serial stdio
 ```
 
-#### ddd
+### ddd
 
 ```
 $ source env.sh
@@ -214,10 +216,72 @@ x86환경
 ```
 
 
-
 ### Raspberry Pi Emulator for Windows 10
-
 출처: <https://mystarlight.tistory.com/90>
 
-
 windows용 QEMU :  <https://qemu.weilnetz.de/w64/>
+
+
+
+# Debian img에서 kernel과 device Tree 구성
+## QEMU compile
+```
+$ git clone https://github.com/0xabu/qemu.git -b raspi
+$ git submodule update --init dtc
+$ ./configure
+$ make -j$(nproc)
+$ sudo make install
+```
+
+## debian image wget
+
+```
+$ wget http://downloads.raspberrypi.org/raspbian/images/raspbian-2015-11-24/2015-11-21-raspbian-jessie.zip
+$ sudo /sbin/fdisk -lu 2015-11-21-raspbian-jessie.img
+Disk 2015-11-21-raspbian-jessie.img: 3.7 GiB, 3934257152 bytes, 7684096 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xea0e7380
+
+Device                          Boot  Start     End Sectors  Size Id Type
+2015-11-21-raspbian-jessie.img1        8192  131071  122880   60M  c W95 FAT32 (LBA)
+2015-11-21-raspbian-jessie.img2      131072 7684095 7553024  3.6G 83 Linux
+```
+
+## kernel7.img, Device tree 파일 추출
+- P0의 start 주소는 8192, Sector size 512
+- Offset 계산: 8192 * 512 = 4194304
+
+```
+$ mkdir tmp
+$ sudo mount -o loop,offset=4194304 2015-11-21-raspbian-jessie.img tmp
+$ mkdir 2015-11-21-raspbian-boot
+$ cp tmp/kernel7.img 2015-11-21-raspbian-boot
+$ cp tmp/bcm2709-rpi-2-b.dtb 2015-11-21-raspbian-boot
+```
+## Boot Rapbian
+
+```
+qemu-system-arm -M raspi2 -kernel 2015-11-21-raspbian-boot/kernel7.img \
+-sd 2015-11-21-raspbian-jessie.img \
+-append "rw earlyprintk loglevel=8 console=ttyAMA0,115200 dwc_otg.lpm_enable=0 root=/dev/mmcblk0p2" \
+-dtb 2015-11-21-raspbian-boot/bcm2709-rpi-2-b.dtb -serial stdio
+```
+
+
+```
+$ sudo /sbin/fdisk -lu 2020-05-27-raspios-buster-lite-armhf.img
+
+Disk 2020-05-27-raspios-buster-lite-armhf.img: 1.7 GiB, 1853882368 bytes, 3620864 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x2fed7fee
+
+Device                                    Boot  Start     End Sectors  Size Id Type
+2020-05-27-raspios-buster-lite-armhf.img1        8192  532479  524288  256M  c W95 FAT32 (LBA)
+2020-05-27-raspios-buster-lite-armhf.img2      532480 3620863 3088384  1.5G 83 Linux
+```
