@@ -177,53 +177,8 @@ root@raspberry:~# raspi-config
 # apt-get install korean *
 ```
 
-##  kernel build
 
-
-설치가이드: <https://www.raspberrypi.org/documentation/linux/kernel/building.md>
-
-### local building
-
-```
-# sudo apt install git bc bison flex libssl-dev make
-# git clone --depth=1 https://github.com/raspberrypi/linux
-# git branch
-* rpi-4.19.y
-
-```
-
-### kernel config
-
-x86환경
-```
-# cd linux
-# KERNEL=kernel7
-# make x86_64_defconfig   //x86_64
-# make bcm2711_defconfig  //raspberry pi 4
-
-```
-### x86_64 컴파일 
-```
-# lscpu
-# sudo apt install git bc bison flex libssl-dev make
-# git clone --depth=1 -b v4.19 https://github.com/torvalds/linux.git
-# apt install libelf-dev, libelf-devel or elfutils-libelf-devel
-# sudo  apt install libelf-dev
-# sudo  apt install libelf-devel
-# sudo  apt install elfutils-libelf-devel
-# make -j4 bzImage  modules 
-# sudo make modules_install
-```
-
-
-### Raspberry Pi Emulator for Windows 10
-출처: <https://mystarlight.tistory.com/90>
-
-windows용 QEMU :  <https://qemu.weilnetz.de/w64/>
-
-
-
-# Debian img에서 kernel과 device Tree 구성
+# raspbian-jessie img에서 kernel과 device Tree 구성
 ## QEMU compile
 ```
 $ git clone https://github.com/0xabu/qemu.git -b raspi
@@ -234,7 +189,6 @@ $ sudo make install
 ```
 
 ## debian image wget
-
 ```
 $ wget http://downloads.raspberrypi.org/raspbian/images/raspbian-2015-11-24/2015-11-21-raspbian-jessie.zip
 $ sudo /sbin/fdisk -lu 2015-11-21-raspbian-jessie.img
