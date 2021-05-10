@@ -1,5 +1,8 @@
 # Linux Kernel Debug
 
+* 디버깅을 통해서 배우는 리눅스 커널의 구조와 원리
+* xv6 
+
 ## ubuntu config
 ```
 $ uname -a
