@@ -213,7 +213,11 @@ debug1: kex: algorithm: curve25519-sha256@libssh.org
 debug1: kex: host key algorithm: ecdsa-sha2-nistp256
 debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
 debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
-debug1: expecting SSH2_MSG_KEX_ECDH_REPLY <<<=====
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY <<== 이것에 대한 이유는 ?
+
+<<< 여기서 hang>>
+<<< Connection reset by 70.150.192.202 port 22>>>
+
 debug1: Server host key: ecdsa-sha2-nistp256 SHA256:MBwc3WCgtGdPlPHoANARxabPMA3ysOLxHgMhIGJ1DSw
 debug1: Host '192.168.57.5' is known and matches the ECDSA host key.
 debug1: Found key in /root/.ssh/known_hosts:2
@@ -820,7 +824,7 @@ root@ubuntu18:~#
 
 
 
-### MTU, NAT, Firewall often behave badly in th presence of packet fragmentation
+###  MTU, NAT, Firewall often behave badly in th presence of packet fragmentation
 
 
 
