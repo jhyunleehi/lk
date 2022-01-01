@@ -1,10 +1,38 @@
 # System call
 
+###  API, ABI, ISA
+
+#### API : Application Program Interface 
+
+Application Program Interface works as an interface between the operating system and application programs in the context of source code
+
+#### ABI : Application Binary Interface 
+
+Application Binary Interface works as an interface between the operating system and application programs in the context of object/binary code.
+
+- Calling conventions
+- [Data type](https://t4tutorials.com/data-types-in-cpp-c-plus-plus/)
+- How functions arguments are passed
+- How [functions return values](https://t4tutorials.com/call-by-reference-and-call-by-value-in-c-user-define-functions/) retrieved
+- Program libraries
+- The binary format of object files
+- Exception propagation
+- *Byte* *ordering*
+- Register Use
+
+#### ISA: Instruction Set Archtecture
+
+ISA is an instruction set architecture.
+
+* ISA is a visible part of the processor and programmer can look at the ISA because ISA works as the boundary between the hardware and software.
+
+* ISA works as an intermediate interface between computer software and computer hardware.
+
+![Virtualization | A Machine Reference Model - GeeksforGeeks](img/api,abi.png)
 
 
-* Linux kernel sourcecode
-* write() syscall
-* copy_from_user()
+
+![Application Binary Interface - an overview | ScienceDirect Topics](img/abi.jpg)
 
 
 
@@ -36,7 +64,7 @@ DESCRIPTION
 
 
 
-#### Archtecure call Conventions
+#### Architecture call Conventions
 
 ##### system call  Instruction, system call number
 
