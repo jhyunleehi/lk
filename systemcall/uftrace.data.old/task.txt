@@ -1,2 +1,0 @@
-SESS timestamp=509131.320081618 pid=240070 sid=eab533fe9ffb7317 exename="/home/jhyunlee/code/lk/systemcall/scall"
-TASK timestamp=509131.321034073 tid=240070 pid=240070
