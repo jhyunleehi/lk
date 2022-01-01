@@ -14,6 +14,8 @@
 
 #### Archtecure call Conventions
 
+##### system call  Instruction, system call number
+
 ```
        Arch/ABI    Instruction           System  Ret  Ret  Error    Notes
                                          call #  val  val2
@@ -65,5 +67,5 @@
 
 
 
-<img src="img/x86register.jpg" style="zoom: 67%;" />
+<img src="img/x86register.jpg"  />
 
