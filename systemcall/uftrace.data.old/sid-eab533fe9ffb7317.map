@@ -1,0 +1,17 @@
+55e9a0753000-55e9a0758000 r-xp 00000000 00:00 0                          /home/jhyunlee/code/lk/systemcall/scall
+7fc61f285000-7fc61f298000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libbz2.so.1.0.4
+7fc61f298000-7fc61f2c1000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.4
+7fc61f2c3000-7fc61f2df000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fc61f2df000-7fc61f2fa000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fc61f2fa000-7fc61f449000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7fc61f449000-7fc61f468000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7fc61f46c000-7fc61f70f000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libcapstone.so.3
+7fc61f70f000-7fc61f76e000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libdw-0.176.so
+7fc61f770000-7fc61f78c000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libelf-0.176.so
+7fc61f78c000-7fc61f96b000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28
+7fc61f96e000-7fc61f974000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7fc61f974000-7fc61f97f000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7fc61f97f000-7fc61fb6d000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fc61fb85000-7fc61fbbd000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/uftrace/libmcount-fast.so
+7fc61fbc0000-7fc61fbef000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7ffdad3e4000-7ffdad405000 rw-p 00000000 00:00 0                          [stack]
