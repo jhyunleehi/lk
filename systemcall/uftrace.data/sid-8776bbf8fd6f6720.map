@@ -1,0 +1,17 @@
+5594946f9000-5594946fe000 r-xp 00000000 00:00 0                          /home/jhyunlee/code/lk/systemcall/h2
+7f21fd484000-7f21fd497000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libbz2.so.1.0.4
+7f21fd497000-7f21fd4c0000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.4
+7f21fd4c2000-7f21fd4de000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f21fd4de000-7f21fd4f9000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f21fd4f9000-7f21fd648000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7f21fd648000-7f21fd667000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f21fd66b000-7f21fd90e000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libcapstone.so.3
+7f21fd90e000-7f21fd96d000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libdw-0.176.so
+7f21fd96f000-7f21fd98b000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libelf-0.176.so
+7f21fd98b000-7f21fdb6a000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28
+7f21fdb6d000-7f21fdb73000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+7f21fdb73000-7f21fdb7e000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/librt-2.31.so
+7f21fdb7e000-7f21fdd6c000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f21fdd85000-7f21fddbd000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/uftrace/libmcount-fast.so
+7f21fddc0000-7f21fddef000 r-xp 00000000 00:00 0                          /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7ffcacad9000-7ffcacafa000 rw-p 00000000 00:00 0                          [stack]
