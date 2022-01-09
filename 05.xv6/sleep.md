@@ -2,7 +2,7 @@
 
 
 
-## Sleep app 구현
+## Sleep system call 구현
 
 #### Kernel 함수
 
@@ -274,3 +274,6 @@ void syscall(void)
 
 
 
+
+
+* qemu 터이널 종료할때는 Ctl-a + x 이렇게 
