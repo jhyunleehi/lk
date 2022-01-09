@@ -100,6 +100,56 @@ sys_sleep(void)
 }
 ```
 
+##### proc.c
+
+* sleep 구현
+
+```c
+void sleep(void *chan, struct spinlock *lk)
+{
+  struct proc *p = myproc();
+
+  if (p == 0)
+    panic("sleep");
+
+  if (lk == 0)
+    panic("sleep without lk");
+
+  // Must acquire ptable.lock in order to
+  // change p->state and then call sched.
+  // Once we hold ptable.lock, we can be
+  // guaranteed that we won't miss any wakeup
+  // (wakeup runs with ptable.lock locked),
+  // so it's okay to release lk.
+  if (lk != &ptable.lock)
+  {                        //DOC: sleeplock0
+    acquire(&ptable.lock); //DOC: sleeplock1
+    release(lk);
+  }
+  // Go to sleep.
+  p->chan = chan;
+  p->state = SLEEPING;
+
+  sched();     <<=== sleep task를 SLEEPING 상태로 만들고 sched를 호출해서 스케쥴링하게 한다. 
+
+  // Tidy up.
+  p->chan = 0;
+
+  // Reacquire original lock.
+  if (lk != &ptable.lock)
+  { //DOC: sleeplock2
+    release(&ptable.lock);
+    acquire(lk);
+  }
+}
+```
+
+
+
+
+
+
+
 #### Application
 
 ##### sleep.c
@@ -277,3 +327,6 @@ void syscall(void)
 
 
 * qemu 터이널 종료할때는 Ctl-a + x 이렇게 
+
+
+
