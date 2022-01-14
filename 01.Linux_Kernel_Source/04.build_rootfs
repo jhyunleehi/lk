@@ -1,0 +1,150 @@
+### Build rootfs
+
+
+
+#### 1. test 환경
+
+* Host 환경
+
+```
+$ uname -r
+5.4.0-92-generic
+$ cat /etc/os-release 
+NAME="Ubuntu"
+VERSION="18.04.6 LTS (Bionic Beaver)"
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.6 LTS"
+VERSION_ID="18.04"
+$ sudo  apt-get install qemu qemu-system
+```
+
+* 커널 소스 환경
+
+```
+$ git remote -v
+origin	https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux.git (fetch)
+origin	https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux.git (push)
+$ git branch 
+* (HEAD detached at v5.5)
+  master
+```
+
+* 커널 빌드
+
+```
+$ make menuconfig
+>> kernel hacking → Compile-time checks and compiler options → 맨위에꺼 체크
+>> kernel hacking → KGDB: kernel debugger 체크
+```
+
+* 빌드 결과
+
+```
+$ ll -l  ./arch/x86/boot/bzImage
+-rw-rw-r-- 1 jhyunlee jhyunlee 11032960  1월 10 15:02 ./arch/x86/boot/bzImage
+$ ll -l vmlinux
+-rwxrwxr-x 1 jhyunlee jhyunlee 711120512  1월 10 15:02 vmlinux*
+```
+
+
+
+#### 2. rootfs 만들기
+
+```
+$ git clone https://github.com/mirror/busybox.git
+$ git checkout 1_35_stable
+$ make defconfig
+$ make menuconfig <<--- chage CONFIG_STATIC
+$ grep CONFIG_STATIC .config
+CONFIG_STATIC=y
+CONFIG_STATIC_LIBGCC=y
+$ make busybox
+$ mkdir _install
+$ make CONFIG_PREFIX=_install install
+$ cd _install
+$ ls
+bin  linuxrc  sbin  usr  <<-- 이러면 정상
+
+$ find . | cpio -H newc -o | gzip  > rootfs.img.gz
+```
+
+
+
+#### 3. qemu 실행
+
+* boot.sh
+
+```
+#!/bin/bash
+ 
+qemu-system-x86_64 \
+-m 256M \
+-kernel ./arch/x86/boot/bzImage \
+-initrd ./rootfs.img.gz \
+-append "root=/dev/ram rdinit=/bin/sh kgdboc=ttyS0,115200 kgdbwait" \
+-serial pty
+```
+
+- -m : 할당할 램 사이즈
+- -kernel : 만든 커널 이미지
+
+- -initrd : 초기 ram disk를 rootfs로 만들걸로 로드해서 부팅
+
+- -append : rootfs 위치, 초기 부팅후 실행 스크립트(여기선 쉘),
+  - kgdbwait → 부팅후 gdb가 붙길 기다리게함
+  - -nographic : qemu 그래픽안뜸
+  - -s : remote로 붙어서 디버깅하기 위함. 포트는 1234임(디폴트인듯)
+  - -smp 4 : cpu 4개 할당
+
+```
+$ sh boot.sh 
+qemu-system-x86_64: -serial pty: char device redirected to /dev/pts/3 (label serial0)
+qemu-system-x86_64: warning: TCG doesn't support requested feature: CPUID.01H:ECX.vmx [bit 5]
+```
+
+* 여기서는  /dev/pts/3 으로 연결해야 된다. 
+
+
+
+#### 4. gdb 연결
+
+```
+$ gdb vmlinux
+
+(gdb) target remote /dev/pts/3
+Remote debugging using /dev/pts/3
+0xffffffffa11852e4 in ?? ()
+(gdb)
+
+(gdb) continue
+Continuing.
+```
+
+
+
+* qemu boot 시나리오
+
+```
+#!/bin/bash
+ 
+qemu-system-x86_64 \
+-m 256M \
+-s -S \
+-kernel ./arch/x86/boot/bzImage \
+-initrd ./rootfs.img \
+-append "root=/dev/ram rdinit=/bin/sh -nographic "
+```
+
+
+
+```
+$ gdb vmlinux
+(gdb) target remote localhost:1234
+Remote debugging using localhost:1234
+0x000000000000fff0 in exception_stacks ()
+(gdb) b start_kernel
+Breakpoint 1 at 0xffffffff82d0bcb8: file init/main.c, line 577.
+(gdb) c
+Continuing.
+```
+
