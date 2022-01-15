@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1060"
+   height="664"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="GNU GRUB on GPT partitioned harddisk.svg">
+  <title
+     id="title4692">GNU GRUB on GPT-partitioned hard disk drive</title>
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="528.69006"
+     inkscape:cy="299.31577"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-page="false"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-grids="false"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>GNU GRUB on GPT-partitioned hard disk drive</dc:title>
+        <dc:date>2013-09-21</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Shmuel Csaba Otto Traian Xerxes</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Shmuel Csaba Otto Traian Xerxes</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Wikimedia Commons</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>GNU GRUB boot.img core.img GPT GUID Partition Table Globally unique identifier</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Illustrates the structure of GNU GRUB on GPT-partitioned hard disk drives</dc:description>
+        <dc:language>en-US</dc:language>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="boxes"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.600531,-452.61942)"
+     style="display:inline">
+    <rect
+       style="fill:#adddff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4218"
+       width="200"
+       height="131"
+       x="442.60052"
+       y="899.57831" />
+    <rect
+       style="fill:#dfff80;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3072"
+       width="200"
+       height="446"
+       x="22.600531"
+       y="506.57828" />
+    <rect
+       style="fill:#cb99ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3101"
+       width="200"
+       height="14"
+       x="22.600531"
+       y="1016.5782" />
+    <rect
+       style="fill:#adddff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4059"
+       width="200"
+       height="16"
+       x="22.600531"
+       y="952.57819" />
+    <rect
+       y="968.57819"
+       x="22.600531"
+       height="16"
+       width="200"
+       id="rect4061"
+       style="fill:#9ed6ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#8fd0ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4063"
+       width="200"
+       height="16"
+       x="22.600531"
+       y="984.57819" />
+    <rect
+       y="1000.5782"
+       x="22.600531"
+       height="16"
+       width="200"
+       id="rect4065"
+       style="fill:#80c9ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       y="728.57819"
+       x="232.60052"
+       height="302"
+       width="200"
+       id="rect4194"
+       style="fill:#fffcb3;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       y="570.57819"
+       x="232.60052"
+       height="14"
+       width="200"
+       id="rect4196"
+       style="fill:#ffb3ef;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#ffb899;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4206"
+       width="140"
+       height="32"
+       x="229.57007"
+       y="1067.2161" />
+    <rect
+       y="1067.2161"
+       x="369.57007"
+       height="32"
+       width="140"
+       id="rect4208"
+       style="fill:#ffc499;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#ffcf99;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4210"
+       width="70"
+       height="32"
+       x="509.57007"
+       y="1067.2161" />
+    <rect
+       y="1067.2161"
+       x="579.57007"
+       height="32"
+       width="70"
+       id="rect4212"
+       style="fill:#ffda99;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#ffe599;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4214"
+       width="70"
+       height="32"
+       x="649.57007"
+       y="1067.2161" />
+    <rect
+       y="1067.2161"
+       x="719.57007"
+       height="32"
+       width="220"
+       id="rect4216"
+       style="fill:#ffef99;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       y="506.57828"
+       x="232.60052"
+       height="16"
+       width="200"
+       id="rect4222"
+       style="fill:#c3b3ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#d6b3ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4224"
+       width="200"
+       height="16"
+       x="232.60052"
+       y="522.57819" />
+    <rect
+       y="538.57819"
+       x="232.60052"
+       height="16"
+       width="200"
+       id="rect4226"
+       style="fill:#e9b3ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#fcb3ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4228"
+       width="200"
+       height="16"
+       x="232.60052"
+       y="554.57819" />
+    <rect
+       y="768.57831"
+       x="442.60052"
+       height="131"
+       width="200"
+       id="rect4408"
+       style="fill:#b8e1ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#c7e8ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4410"
+       width="200"
+       height="131"
+       x="442.60052"
+       y="637.57831" />
+    <rect
+       y="584.57819"
+       x="232.60052"
+       height="16"
+       width="200"
+       id="rect4430"
+       style="fill:#ffb3dc;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#ffb3c9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4436"
+       width="200"
+       height="16"
+       x="232.60052"
+       y="600.57819" />
+    <rect
+       y="616.57819"
+       x="232.60052"
+       height="16"
+       width="200"
+       id="rect4442"
+       style="fill:#ffb3c9;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#ffb3c9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4448"
+       width="200"
+       height="16"
+       x="232.60052"
+       y="632.57819" />
+    <rect
+       y="648.57819"
+       x="232.60052"
+       height="16"
+       width="200"
+       id="rect4454"
+       style="fill:#fcb3ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#ffb3ef;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4460"
+       width="200"
+       height="16"
+       x="232.60052"
+       y="664.57819" />
+    <rect
+       y="680.57819"
+       x="232.60052"
+       height="16"
+       width="200"
+       id="rect4466"
+       style="fill:#ffb3dc;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#ffb3c9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4472"
+       width="200"
+       height="16"
+       x="232.60052"
+       y="696.57819" />
+    <rect
+       y="712.57819"
+       x="232.60052"
+       height="16"
+       width="200"
+       id="rect4478"
+       style="fill:#ffb3b6;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       y="899.57831"
+       x="652.60046"
+       height="131"
+       width="200"
+       id="rect4496"
+       style="fill:#70c3ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#80c9ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4498"
+       width="200"
+       height="131"
+       x="652.60046"
+       y="768.57831" />
+    <rect
+       y="637.57831"
+       x="652.60046"
+       height="131"
+       width="200"
+       id="rect4500"
+       style="fill:#8fd0ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       y="506.57828"
+       x="442.60052"
+       height="131"
+       width="200"
+       id="rect4412"
+       style="fill:#d6eeff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#adddff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4502"
+       width="200"
+       height="131"
+       x="652.60046"
+       y="506.57828" />
+    <rect
+       style="fill:#e8ffa3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4602"
+       width="42.5"
+       height="523.99994"
+       x="862.60046"
+       y="506.57828" />
+    <rect
+       y="506.57828"
+       x="915.10046"
+       height="523.99994"
+       width="42.5"
+       id="rect4638"
+       style="fill:#e8ffa3;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#e8ffa3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4642"
+       width="42.5"
+       height="523.99994"
+       x="967.60046"
+       y="506.57828" />
+    <rect
+       y="506.57828"
+       x="1020.1005"
+       height="523.99994"
+       width="42.5"
+       id="rect4646"
+       style="fill:#e8ffa3;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="text"
+     transform="translate(-12.600531,-452.61942)">
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="122.44428"
+       y="471.33624"
+       id="text2985"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="122.44428"
+         y="471.33624">Master Boot Record</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="121.96895"
+       y="1027.1647"
+       id="text3001"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3003"
+         x="121.96895"
+         y="1027.1647">Magic Number</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4013"
+       y="471.33624"
+       x="959.96375"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       xml:space="preserve"><tspan
+         y="471.33624"
+         x="959.96375"
+         id="tspan4015"
+         sodipodi:role="line">Empty sectors</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="122.60053"
+       y="751.80157"
+       id="text4009"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4011"
+         x="122.60053"
+         y="751.80157"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold">boot.img</tspan><tspan
+         sodipodi:role="line"
+         x="122.60053"
+         y="782.10327"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+         id="tspan4618">446 bytes</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3033"
+       y="622.52136"
+       x="122.57319"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       xml:space="preserve"><tspan
+         y="622.52136"
+         x="122.57319"
+         sodipodi:role="line"
+         id="tspan3037">Stage 1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4033"
+       y="751.80157"
+       x="962.63562"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       xml:space="preserve"><tspan
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+         y="751.80157"
+         x="962.63562"
+         id="tspan4035"
+         sodipodi:role="line">core.img</tspan><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+         y="782.10327"
+         x="962.63562"
+         sodipodi:role="line"
+         id="tspan4620">32,256 bytes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-962.60046"
+       y="725.71564"
+       id="text4053"
+       sodipodi:linespacing="125%"
+       transform="scale(-1,1)"><tspan
+         sodipodi:role="line"
+         id="tspan4055"
+         x="-962.60046"
+         y="725.71564">⤵</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4067"
+       y="965.42462"
+       x="122.56562"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="965.42462"
+         x="122.56562"
+         id="tspan4069"
+         sodipodi:role="line"
+         style="font-weight:normal;-inkscape-font-specification:Sans">Master Partition entry #1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="122.6164"
+       y="981.42474"
+       id="text4071"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4073"
+         x="122.6164"
+         y="981.42474">empty</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4075"
+       y="997.42474"
+       x="122.48627"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="997.42474"
+         x="122.48627"
+         id="tspan4077"
+         sodipodi:role="line">empty</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="122.33076"
+       y="1013.4247"
+       id="text4079"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4081"
+         x="122.33076"
+         y="1013.4247">empty</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4017"
+       y="500.47861"
+       x="123.02485"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+         y="500.47861"
+         x="123.02485"
+         id="tspan4019"
+         sodipodi:role="line">Sector #0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="962.81177"
+       y="500.23154"
+       id="text4021"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4023"
+         x="962.81177"
+         y="500.23154"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold">Sectors #34-x</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono"
+       xml:space="preserve"
+       id="text13468"
+       y="440.12921"
+       x="11.551702"><tspan
+         id="tspan13470"
+         y="440.12921"
+         x="11.551702">by Shmuel Csaba Otto Traian; GFDL 1.3 &amp; CC-BY-SA 3.0; 2013-09-20</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4230"
+       y="471.3363"
+       x="332.44427"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       xml:space="preserve"><tspan
+         y="471.3363"
+         x="332.44427"
+         id="tspan4232"
+         sodipodi:role="line">GPT Header</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="447.72974"
+       y="1058.8137"
+       id="text4234"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4236"
+         x="447.72974"
+         y="1058.8137">Each <tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan4558">partition table entry</tspan> comprises of <tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan4560">128 octets</tspan>:</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4238"
+       y="581.16473"
+       x="331.96893"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="581.16473"
+         x="331.96893"
+         id="tspan4240"
+         sodipodi:role="line">Reserved; must be zero</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4258"
+       y="911.89966"
+       x="333.65521"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         id="tspan4262"
+         y="911.89966"
+         x="333.65521"
+         sodipodi:role="line"
+         style="font-size:10px">must be zeroes for the rest of</tspan><tspan
+         y="924.39966"
+         x="333.65521"
+         sodipodi:role="line"
+         style="font-size:10px"
+         id="tspan4552">the sector</tspan><tspan
+         y="936.89966"
+         x="333.65521"
+         sodipodi:role="line"
+         style="font-size:10px"
+         id="tspan4494">420 octets for 512-Byte sectors</tspan><tspan
+         y="949.39966"
+         x="333.65521"
+         sodipodi:role="line"
+         id="tspan4492"
+         style="font-size:10px">4004 octets for 4-KiB sectors</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="299.27808"
+       y="1079.9375"
+       id="text4276"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4278"
+         sodipodi:role="line"
+         x="299.27808"
+         y="1079.9375">Partition type</tspan><tspan
+         sodipodi:role="line"
+         x="299.27808"
+         y="1096.1875"
+         id="tspan4390">GUID</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4280"
+       y="1079.9375"
+       x="440.12866"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         id="tspan4282"
+         y="1079.9375"
+         x="440.12866"
+         sodipodi:role="line">  Unique partition</tspan><tspan
+         y="1096.1875"
+         x="440.12866"
+         sodipodi:role="line"
+         id="tspan4392">GUID</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="544.09082"
+       y="1080.0295"
+       id="text4284"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4286"
+         sodipodi:role="line"
+         x="544.09082"
+         y="1080.0295">First</tspan><tspan
+         sodipodi:role="line"
+         x="544.09082"
+         y="1096.2795"
+         id="tspan4394">LBA</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4288"
+       y="1079.8296"
+       x="614.09082"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="1079.8296"
+         x="614.09082"
+         sodipodi:role="line"
+         id="tspan4290">Last</tspan><tspan
+         y="1096.0796"
+         x="614.09082"
+         sodipodi:role="line"
+         id="tspan4396">LBA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="684.86523"
+       y="1078.6775"
+       id="text4292"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4294"
+         sodipodi:role="line"
+         x="684.86523"
+         y="1078.6775">Attribute</tspan><tspan
+         sodipodi:role="line"
+         x="684.86523"
+         y="1094.9275"
+         id="tspan4398">flags</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4296"
+       y="1088.0625"
+       x="829.27808"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         y="1088.0625"
+         x="829.27808"
+         sodipodi:role="line"
+         id="tspan4298">Partition name</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4300"
+       y="1114.6194"
+       x="684.57642"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="1114.6194"
+         x="684.57642"
+         sodipodi:role="line"
+         id="tspan4302">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="544.57642"
+       y="1114.6194"
+       id="text4308"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4310"
+         sodipodi:role="line"
+         x="544.57642"
+         y="1114.6194">8</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4312"
+       y="1114.6194"
+       x="299.26855"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="1114.6194"
+         x="299.26855"
+         sodipodi:role="line"
+         id="tspan4314">16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="439.26855"
+       y="1114.4353"
+       id="text4316"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4318"
+         sodipodi:role="line"
+         x="439.26855"
+         y="1114.4353">16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="614.57642"
+       y="1114.4353"
+       id="text4320"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4322"
+         sodipodi:role="line"
+         x="614.57642"
+         y="1114.4353">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="660.05591"
+       y="471.33643"
+       id="text4324"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4326"
+         x="660.05591"
+         y="471.33643">Partition entry array</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="332.55292"
+       y="884.42462"
+       id="text4336"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4338"
+         sodipodi:role="line"
+         x="332.55292"
+         y="884.42462">Reserved</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="332.56561"
+       y="518.16473"
+       id="text4356"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4358"
+         x="332.56561"
+         y="518.16473">Signature</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4360"
+       y="535.42474"
+       x="332.61639"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="535.42474"
+         x="332.61639"
+         id="tspan4362"
+         sodipodi:role="line">Revision</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="332.48627"
+       y="551.42474"
+       id="text4364"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4366"
+         x="332.48627"
+         y="551.42474">Header size in little endian</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4368"
+       y="567.42468"
+       x="332.33075"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="567.42468"
+         x="332.33075"
+         id="tspan4370"
+         sodipodi:role="line">CRC32 of header</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="333.02484"
+       y="500.47867"
+       id="text4372"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4374"
+         x="333.02484"
+         y="500.47867"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold">Sector #1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4376"
+       y="500.23172"
+       x="542.81189"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+         y="500.23172"
+         x="542.81189"
+         id="tspan4378"
+         sodipodi:role="line">Sector #2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="851.80591"
+       y="1114.6194"
+       id="text4404"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4406"
+         sodipodi:role="line"
+         x="851.80591"
+         y="1114.6194">72 octets</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="542.61633"
+       y="581.95526"
+       id="text4414"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4416"
+         x="542.61633"
+         y="581.95526">Partition entry #1</tspan><tspan
+         sodipodi:role="line"
+         x="542.61633"
+         y="598.20526"
+         id="tspan4536">(128 octets)</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4418"
+       y="712.95526"
+       x="542.56555"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="712.95526"
+         x="542.56555"
+         id="tspan4420"
+         sodipodi:role="line">Partition entry #2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="542.56555"
+       y="837.66473"
+       id="text4422"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4424"
+         x="542.56555"
+         y="837.66473">Partition entry #3</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4426"
+       y="974.95526"
+       x="542.56555"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="974.95526"
+         x="542.56555"
+         id="tspan4428"
+         sodipodi:role="line">Partition entry #4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="332.31488"
+       y="596.76129"
+       id="text4432"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4434"
+         x="332.31488"
+         y="596.76129">Current LBA (this header)</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4438"
+       y="612.76129"
+       x="332.31488"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="612.76129"
+         x="332.31488"
+         id="tspan4440"
+         sodipodi:role="line">Backup LBA (other header)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="332.31488"
+       y="628.76129"
+       id="text4444"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4446"
+         x="332.31488"
+         y="628.76129">First usable LBA for partitions</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4450"
+       y="644.76129"
+       x="332.31488"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="644.76129"
+         x="332.31488"
+         id="tspan4452"
+         sodipodi:role="line">Last usable LBA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="332.31488"
+       y="660.76129"
+       id="text4456"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4458"
+         x="332.31488"
+         y="660.76129">  Disk GUID (UUID)</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4462"
+       y="676.76129"
+       x="332.31488"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="676.76129"
+         x="332.31488"
+         id="tspan4464"
+         sodipodi:role="line">PEA starting LBA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="332.31488"
+       y="692.76129"
+       id="text4468"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4470"
+         x="332.31488"
+         y="692.76129">Number of entries in PEA</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4474"
+       y="708.76129"
+       x="332.31488"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="708.76129"
+         x="332.31488"
+         id="tspan4476"
+         sodipodi:role="line">Size of an entry (usually 128)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="332.31488"
+       y="724.76129"
+       id="text4480"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4482"
+         x="332.31488"
+         y="724.76129">  CRC32 of partition array</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="752.81201"
+       y="500.23172"
+       id="text4504"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4506"
+         x="752.81201"
+         y="500.23172"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold">Sector #33</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4510"
+       y="581.95526"
+       x="752.61646"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="581.95526"
+         x="752.61646"
+         id="tspan4512"
+         sodipodi:role="line">Partition entry #125</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="752.56567"
+       y="712.95526"
+       id="text4514"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4516"
+         x="752.56567"
+         y="712.95526">Partition entry #126</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4518"
+       y="837.66473"
+       x="752.56567"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="837.66473"
+         x="752.56567"
+         id="tspan4520"
+         sodipodi:role="line">Partition entry #127</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="752.56567"
+       y="974.95526"
+       id="text4522"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4524"
+         x="752.56567"
+         y="974.95526">Partition entry #128</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="962.58093"
+       y="622.52136"
+       id="text4622"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4624"
+         sodipodi:role="line"
+         x="962.58093"
+         y="622.52136">Stage 1.5</tspan></text>
+    <text
+       transform="scale(-1,1)"
+       sodipodi:linespacing="125%"
+       id="text4654"
+       y="729.69513"
+       x="-123.21967"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       xml:space="preserve"><tspan
+         y="729.69513"
+         x="-123.21967"
+         id="tspan4656"
+         sodipodi:role="line">⤵</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4658"
+       y="840.13892"
+       x="122.24824"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="840.13892"
+         x="122.24824"
+         sodipodi:role="line"
+         id="tspan4660">Contains an LBA48 pointer</tspan><tspan
+         y="856.38892"
+         x="122.24824"
+         sodipodi:role="line"
+         id="tspan4668">either</tspan><tspan
+         y="872.63892"
+         x="122.24824"
+         sodipodi:role="line"
+         id="tspan4662">to Stage 1.5</tspan><tspan
+         y="888.88892"
+         x="122.24824"
+         sodipodi:role="line"
+         id="tspan4666">or</tspan><tspan
+         y="905.13892"
+         x="122.24824"
+         sodipodi:role="line"
+         id="tspan4664">to Stage 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="962.56238"
+       y="840.13892"
+       id="text4670"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4672"
+         sodipodi:role="line"
+         x="962.56238"
+         y="840.13892">Contains file system drivers</tspan><tspan
+         id="tspan4674"
+         sodipodi:role="line"
+         x="962.56238"
+         y="856.38892">so it can address <tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan4682">Stage 2</tspan></tspan><tspan
+         id="tspan4680"
+         sodipodi:role="line"
+         x="962.56238"
+         y="872.63892">by full path and file name</tspan></text>
+  </g>
+</svg>
