@@ -1,2 +1,0 @@
-SESS timestamp=15946.622923259 pid=417108 sid=74ed99526b864036 exename="/usr/bin/cat"
-TASK timestamp=15946.622972151 tid=417108 pid=417108
