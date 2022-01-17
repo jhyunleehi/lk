@@ -21,6 +21,7 @@
 #### Kernel memory map
 
 * user program cannot access kernel memory area
+* 왜 0xFE00 0000 일까?  0x100 0000
 
 ![image-20220116230559328](img/image-20220116230559328.png)
 
