@@ -1,20 +1,21 @@
 # Interrupt
 
+## Event 기반 OS
 
+#### OS&Events
 
-## OS&Events
+* 커널은 Event 기반 아키텍처 이다.
+* 오직 interrupt에 의해서만 동작된다. 
 
 ![image-20220117153944597](img/image-20220117153944597.png)
 
 
 
-### Interrupts
+### Events 종류
 
-
-
-### Events
-
-
+1. 하드웨어 인터럽트
+2. 트랩 : software interrupts 
+3. Exceptions
 
 ![image-20220117154035206](D:\Code\lk\07.Interrupt\img\image-20220117154035206.png)
 
@@ -24,13 +25,15 @@
 
 
 
+#### Hardware Interrupts 
 
+* Multiple devices 
 
 ![image-20220117154202167](D:\Code\lk\07.Interrupt\img\image-20220117154202167.png)
 
 
 
-
+#### Programmable Interrupt Controller 
 
 ![image-20220117154219739](D:\Code\lk\07.Interrupt\img\image-20220117154219739.png)
 
