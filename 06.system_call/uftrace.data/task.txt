@@ -1,2 +1,0 @@
-SESS timestamp=531668.973902671 pid=865345 sid=8776bbf8fd6f6720 exename="/home/jhyunlee/code/lk/systemcall/h2"
-TASK timestamp=531668.974900040 tid=865345 pid=865345
