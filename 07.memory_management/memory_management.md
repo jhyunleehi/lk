@@ -27,57 +27,9 @@
 
 
 
-## 2. system call
 
 
-
-![image-20220116230654098](img/image-20220116230654098.png)
-
-
-
-#### system call trap handler
-
-
-
-![image-20220116230720925](img/image-20220116230720925.png)
-
-
-
-#### system call vs procedure call
-
-
-
-![image-20220116230837413](img/image-20220116230837413.png)
-
-
-
-
-
-![image-20220116231147695](img/image-20220116231147695.png)
-
-
-
-
-
-![image-20220116231204190](img/image-20220116231204190.png)
-
-![image-20220116231226996](img/image-20220116231226996.png)
-
-#### monolithic structure
-
-![image-20220116231317151](img/image-20220116231317151.png)
-
-
-
-#### microkernel
-
-![image-20220116231400189](img/image-20220116231400189.png)
-
-
-
-
-
-## 3. Programs Memory
+## Programs Memory
 
 ### process
 
@@ -279,7 +231,7 @@ Do we really need to load all blocks into memory before the process starts execu
 
 
 
-![image-20220117002743465](D:\Code\lk\xv6.memory_management\img\image-20220117002743465.png)
+![image-20220117002743465](img/image-20220117002743465.png)
 
 
 
