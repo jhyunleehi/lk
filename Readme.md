@@ -180,7 +180,11 @@ root@raspberry:~# raspi-config
 ```
 
 
+
+
+
 # raspbian-jessie img에서 kernel과 device Tree 구성
+
 ## QEMU compile
 ```
 $ git clone https://github.com/0xabu/qemu.git -b raspi
